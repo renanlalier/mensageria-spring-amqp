@@ -1,0 +1,17 @@
+server:
+  port: 8801
+  
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      uri: mongodb://localhost/atendimento
+      repositories:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: atendimento
+    password: admin
+  

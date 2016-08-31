@@ -1,0 +1,10 @@
+server:
+  port: 8800
+  
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: atendimento
+    password: admin
+  
